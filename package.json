@@ -1,0 +1,23 @@
+{
+  "name": "coolnodeapp",
+  "version": "1.0.0",
+  "description": "Cool NodeJS App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xsmobi/coolnodeapp.git"
+  },
+  "author": "Eckard Ritter",
+  "license": "ISC",
+  "engines": {
+    "node": "v14.15.1"
+  },
+  "dependencies": {
+    "airtable": "^0.10.1",
+    "express": "^4.17.1"
+  }
+}
